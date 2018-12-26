@@ -7,20 +7,23 @@ namespace LostCountdown
     {
         static void Main(string[] args)
         {
-            //StartConsole();
-            BeepOnKey();
+            StartConsole();
+            //BeepOnKey();
         }
 
         private static void StartConsole()
         {
+            Console.CursorVisible = false;
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Title = "Lost Countdown";
-            Console.WriteLine(">: ");
+            Console.Write(">: ");
             string input = Console.ReadLine();
-            SoundPlayer player = new SoundPlayer($@"C:\Users\Chris\Desktop\Key press.wav");
 
-            while (true)
+
+            do
             {
+                Console.Write(">: ");
+
                 switch (input)
                 {
                     case "4 8 15 16 23 42":
@@ -28,16 +31,15 @@ namespace LostCountdown
                         input = Console.ReadLine();
                         break;
                     default:
-                        Console.WriteLine("Wrong!");
                         input = Console.ReadLine();
                         break;
                 }
-            }
+            } while (true);
         }
 
         public static void BeepOnKey()
         {
-            SoundPlayer player = new SoundPlayer($@"C:\Users\Chris\Desktop\Key press.wav");
+            SoundPlayer player = new SoundPlayer($@"C:\Users\Chris\Desktop\lost sounds\Key press.wav");
             do
             {
                 player.Stop();
