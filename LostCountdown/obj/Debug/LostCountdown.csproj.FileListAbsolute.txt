@@ -1,0 +1,7 @@
+C:\KODING\LostCountdown\LostCountdown\bin\Debug\LostCountdown.exe.config
+C:\KODING\LostCountdown\LostCountdown\bin\Debug\LostCountdown.exe
+C:\KODING\LostCountdown\LostCountdown\bin\Debug\LostCountdown.pdb
+C:\KODING\LostCountdown\LostCountdown\obj\Debug\LostCountdown.csprojAssemblyReference.cache
+C:\KODING\LostCountdown\LostCountdown\obj\Debug\LostCountdown.csproj.CoreCompileInputs.cache
+C:\KODING\LostCountdown\LostCountdown\obj\Debug\LostCountdown.exe
+C:\KODING\LostCountdown\LostCountdown\obj\Debug\LostCountdown.pdb
